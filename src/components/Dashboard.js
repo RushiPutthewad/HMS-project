@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 
 function Dashboard() {
+  const getCurrentDate = () => {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date().toLocaleDateString('en-US', options);
+  };
+
   return (
 
     <div className="flex-1 overflow-y-auto p-6 md:p-8 bg-slate-50">
@@ -12,7 +17,7 @@ function Dashboard() {
                 </div>
                 <div className="flex gap-2 text-sm text-[#1E88E5] font-medium bg-white border border-[#E2E8F0] shadow-sm px-4 py-2 rounded-full self-start md:self-auto items-center">
                   <span className="material-symbols-outlined text-base">calendar_today</span>
-                  <span>October 24, 2023</span>
+                  <span>{getCurrentDate()}</span>
                 </div>
               </div>
 

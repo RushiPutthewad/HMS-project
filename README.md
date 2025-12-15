@@ -4,19 +4,6 @@ A modern, responsive Hospital Management System built with React and Tailwind CS
 
 ---
 
-## 📋 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Project Workflow](#project-workflow)
-- [Working Structure](#working-structure)
-- [File Structure](#file-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-
----
-
 ## 📌 Project Overview
 
 The Hospital Management System is a full-featured web application designed to streamline hospital operations. It enables hospital administrators and staff to efficiently manage patient records, doctor profiles, appointment scheduling, and pharmacy inventory.

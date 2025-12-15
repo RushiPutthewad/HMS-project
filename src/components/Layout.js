@@ -39,9 +39,11 @@ function Layout({ children, onNavigate, currentPage }) {
       <div className="flex h-screen w-full">
         <aside className="hidden lg:flex flex-col w-72 h-full border-r border-[#E2E8F0] bg-white flex-shrink-0">
           <div className="p-6 flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-[#1E88E5] flex items-center justify-center text-white">
-              <span className="material-symbols-outlined icon-fill">local_hospital</span>
-            </div>
+            <img 
+              src="/assets/logo-hospital.png" 
+              alt="Hospital Logo" 
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <div className="flex flex-col">
               <h1 className="text-[#0F172A] text-lg font-bold leading-tight tracking-tight">MediCare</h1>
               <p className="text-[#64748B] text-xs font-medium">Admin Portal</p>
